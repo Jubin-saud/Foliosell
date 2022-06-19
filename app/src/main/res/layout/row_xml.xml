@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="148dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/postimg"
+            android:layout_width="110dp"
+            android:layout_height="148dp"
+            android:background="@drawable/pdf">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/titileTv"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/moreBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/postimg"
+            android:maxLines="2"
+            android:text="Book Title"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titileTv"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/postimg"
+            android:maxLines="2"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/views"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/postimg"
+            android:maxLines="1"
+            android:text="0views" />
+
+        <TextView
+            android:id="@+id/formtdate"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/postimg"
+            android:maxLines="1"
+            android:text="dd/MM/yyyy" />
+
+
+        <ImageButton
+            android:id="@+id/moreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_baseline_more_vert_24"
+            android:padding="5dp"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
