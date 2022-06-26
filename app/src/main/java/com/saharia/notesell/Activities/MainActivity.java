@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
                     Log.d(TAG, "onClick: Null photo");
+                    Toast.makeText(MainActivity.this, "Select Profile Pic", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -180,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.pro.setImageURI(data.getData());
 
                 selectedItem=data.getData();
+
 
             }
 

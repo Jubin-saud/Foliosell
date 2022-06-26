@@ -56,6 +56,9 @@ dependencies {
 
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
+    implementation 'com.github.MrNouri:DynamicSizes:1.0'
+
+
     implementation "com.airbnb.android:lottie:5.2.0"
     implementation 'com.github.marlonlom:timeago:4.0.3'
     implementation 'com.razorpay:checkout:1.6.19'

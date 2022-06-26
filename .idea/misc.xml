@@ -47,25 +47,30 @@
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/drawable/ic_bookmark_border.xml" value="0.1965" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/drawable/paymethod.xml" value="0.1965" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/drawable/right_round_bg.xml" value="0.1965" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/drawable/send2.xml" value="0.196" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_comment.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_detail.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_document.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_forget_password.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_goto_library.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_home.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_library_view.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_login.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_open.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_openstart.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_payment.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_question.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_splash.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/bookmarked_row_pdf.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/comment_sample.xml" value="0.264" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/content_splash.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/dashbord.xml" value="0.264" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_add.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_favourite.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_home.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_second.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_trending.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/fragment_user_profile.xml" value="0.264" />
         <entry key="..\:/Users/ASUS_TUF_GAMING/Downloads/Notesfolio-master/Notesfolio-master/app/src/main/res/layout/library_row.xml" value="0.19067977768277042" />

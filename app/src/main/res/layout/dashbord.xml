@@ -42,9 +42,10 @@
 
     <TextView
         android:id="@+id/Qtextquestion"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/_310mdp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/alata"
         android:hint="the text will be here"
@@ -55,16 +56,14 @@
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/Qpostmage"
-        android:layout_width="390dp"
-        android:layout_height="500dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:scaleType="fitCenter"
         android:src="@drawable/upload"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Qtextquestion"
+        app:layout_constraintStart_toStartOf="@+id/Qtextquestion"
         app:layout_constraintTop_toBottomOf="@+id/Qtextquestion"
         app:riv_border_color="#333333"
         app:riv_mutate_background="true" />
@@ -83,40 +82,28 @@
         android:id="@+id/like"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:drawableLeft="@drawable/heartoff"
         android:drawablePadding="2dp"
         android:gravity="center"
         android:text="Like"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Qpostmage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Qpostmage"
         app:layout_constraintTop_toBottomOf="@+id/Qpostmage" />
 
     <TextView
         android:id="@+id/comment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
         android:drawableLeft="@drawable/ic_baseline_mode_comment_24"
         android:drawablePadding="2dp"
         android:gravity="center"
         android:text="Comment"
+        app:layout_constraintBottom_toBottomOf="@+id/like"
         app:layout_constraintStart_toEndOf="@id/like"
-        app:layout_constraintTop_toBottomOf="@+id/Qpostmage" />
-
-    <TextView
-        android:id="@+id/share"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
-        android:drawableLeft="@drawable/ic_baseline_share_24"
-        android:drawablePadding="2dp"
-        android:gravity="center"
-        android:text="Share"
-        app:layout_constraintStart_toEndOf="@id/comment"
-        app:layout_constraintTop_toBottomOf="@+id/Qpostmage" />
+        app:layout_constraintTop_toTopOf="@+id/like" />
 
     <View
         android:id="@+id/view4"
@@ -126,7 +113,7 @@
         android:background="#989898"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/share" />
+        app:layout_constraintTop_toBottomOf="@+id/like" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

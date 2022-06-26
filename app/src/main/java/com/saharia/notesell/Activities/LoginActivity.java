@@ -13,6 +13,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.saharia.notesell.ForgetPasswordActivity;
 import com.saharia.notesell.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
@@ -64,6 +65,10 @@ public class LoginActivity extends AppCompatActivity {
     public void gotoRegister(View e){
         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
         startActivity( intent);
+    }
+    public void forgotpassword(View v){
+        Intent intent2 = new Intent(LoginActivity.this, ForgetPasswordActivity.class);
+        startActivity( intent2);
     }
 
     @Override

@@ -5,54 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/offwhite"
+    android:scrollbars="vertical"
     tools:context=".Activities.MainActivity">
 
+
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Create Account"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Add image here"
+        android:textColor="@color/myblue"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/pro"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="@+id/pro"
         app:layout_constraintTop_toBottomOf="@+id/pro" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="310dp"
+        android:layout_height="@dimen/_40mdp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/location"
+        app:layout_constraintStart_toStartOf="@+id/location"
         app:layout_constraintTop_toBottomOf="@+id/location"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="0dp"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
         android:textColorHint="#B9B8B8"
         app:boxBackgroundColor="@color/offwhite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/email"
         app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="@dimen/_40mdp"
             android:layout_marginTop="10dp"
-            android:backgroundTint="@color/offwhite"
             android:ems="10"
             android:hint="password"
             android:inputType="textPassword"
@@ -65,74 +63,87 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="310dp"
+        android:layout_height="@dimen/_40mdp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <Button
-        android:id="@+id/register_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="@color/myblue"
-        android:text="Sign Up"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#EFE8E8"
-        app:iconTint="@color/myblue"
-        app:layout_constraintBottom_toTopOf="@+id/login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="0.90" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/pro"
-        android:layout_width="117dp"
-        android:layout_height="117dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/acc"
+        android:layout_width="94dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/myblue"
-        android:padding="4dp"
-        app:civ_border_color="@color/mygrey"
-        app:civ_border_width="5dp"
+        android:padding="2dp"
+        android:src="@drawable/adduser"
+        app:civ_border_color="@color/ic_launcher_background"
+        app:civ_border_width="4dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/location"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="310dp"
+        android:layout_height="@dimen/_40mdp"
+        android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Location"
+        android:hint="Bio "
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
-    <TextView
-        android:id="@+id/login"
+    <Button
+        android:id="@+id/register_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/myblue"
+        android:text="Register"
+        android:textColor="#F1EDED"
+        android:textSize="@dimen/_14font_mdp"
+        app:iconTint="@color/myblue"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:onClick="gotoSignin"
-        android:text="Already an User? Login "
+        android:text="Already an User? Login"
         android:textColor="@color/myblue"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/register_btn"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="@+id/register_btn"
+        app:layout_constraintTop_toBottomOf="@+id/register_btn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/alata"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/myblue"
+        android:textSize="@dimen/_15mdp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
